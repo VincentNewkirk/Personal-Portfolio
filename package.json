@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/VincentNewkirk/Personal-Portfolio#readme",
   "dependencies": {
+    "autoprefixer": "^6.4.0",
+    "html-webpack-plugin": "^2.22.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "webpack": "^1.13.2",
