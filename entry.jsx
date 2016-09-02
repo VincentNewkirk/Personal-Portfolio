@@ -6,12 +6,10 @@ import {createStore, combineReducers} from 'redux';
 import * as reducers from './reducers';
 import {Provider} from 'react-redux';
 
-const reducer = combineReducers(reducers);
-const store = createStore(reducer);
+// const reducer = combineReducers(reducers);
+// const store = createStore(reducer);
 
 ReactDOM.render(
-  <Provider store={store} >
-    <TestBox />
-  </Provider>,
+    <TestBox />,
   document.getElementById('content')
 );
