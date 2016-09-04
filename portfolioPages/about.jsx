@@ -8,8 +8,10 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 const about = () => (
   <div id='about-page'>
     <Header />
-    <h1> Vincent Newkirk </h1>
-    <p>Hello Hello</p>
+    <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
+      <h1> Vincent Newkirk </h1>
+      <p>Hello Hello</p>
+    </ReactCSSTransitionGroup>
   </div>
 )
 

@@ -1,8 +1,8 @@
-.appear-transition-animation-appear {
+.example-appear {
   opacity: 0.01;
 }
 
-.appear-trainsition-animation-appear.appear-transtition-animation-appear-active {
+.example-appear.example-appear-active {
   opacity: 1;
   transition: opacity .5s ease-in;
 }
