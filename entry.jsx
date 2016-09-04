@@ -6,6 +6,7 @@ import about from './portfolioPages/about.jsx';
 import projects from './portfolioPages/projects.jsx';
 import contact from './portfolioPages/contact.jsx';
 import style from "./scss/styles.scss";
+import Skills from './portfolioPages/skills.jsx'
 import { Router, Route, hasHistory } from 'react-router';
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Router path='/about' component={about} />
     <Router path='/projects' component={projects} />
     <Router path='/contact' component={contact} />
+    <Router path='/skills' component={Skills} />
   </Router>,
   document.getElementById('content')
 );

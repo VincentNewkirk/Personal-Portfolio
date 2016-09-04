@@ -12,11 +12,6 @@ a{
   color: black;
 }
 
-#main-header{
-  display: flex;
-  flex-direction: column;
-}
-
 .example-leave {
   opacity: 1;
 }
@@ -24,4 +19,27 @@ a{
 .example-leave.example-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
+}
+
+#header{
+  height: 70%;
+  width: 100%;
+  background-color: blue;
+}
+
+#main-header{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+}
+
+#about-page{
+  display: flex;
+}
+
+#about-container{
+  width: 100%;
 }
