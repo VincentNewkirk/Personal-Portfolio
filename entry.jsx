@@ -11,7 +11,7 @@ import { Router, Route, hasHistory } from 'react-router';
 
 ReactDOM.render(
   <Router history={hasHistory}>
-    <Router path='/' component={MainButtonBox} />
+    <Router path='/' component={about} />
     <Router path='/about' component={about} />
     <Router path='/projects' component={projects} />
     <Router path='/contact' component={contact} />

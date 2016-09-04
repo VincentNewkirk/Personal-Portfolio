@@ -1,8 +1,8 @@
-.main-button-animation-appear {
+.appear-transition-animation-appear {
   opacity: 0.01;
 }
 
-.main-button-animation-appear.main-button-animation-appear-active {
+.appear-trainsition-animation-appear.appear-transtition-animation-appear-active {
   opacity: 1;
   transition: opacity .5s ease-in;
 }
