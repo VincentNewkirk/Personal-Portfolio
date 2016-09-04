@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import HeaderButton from './header-buttons.jsx';
 
-class Header extends React.Component{
+class SideButtons extends React.Component{
   render () {
     return (
       <div id='main-header'>
@@ -15,4 +15,4 @@ class Header extends React.Component{
   }
 }
 
-export default Header;
+export default SideButtons;

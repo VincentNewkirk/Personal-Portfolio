@@ -5,7 +5,6 @@ import MainButtonBox from './App.jsx';
 import about from './portfolioPages/about.jsx';
 import projects from './portfolioPages/projects.jsx';
 import contact from './portfolioPages/contact.jsx';
-import Header from './portfolioPages/header.jsx';
 import style from "./scss/styles.scss";
 import { Router, Route, hasHistory } from 'react-router';
 

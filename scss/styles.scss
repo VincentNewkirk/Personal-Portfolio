@@ -6,3 +6,22 @@
   opacity: 1;
   transition: opacity .5s ease-in;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#main-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
