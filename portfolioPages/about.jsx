@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import SideButtons from './sideButtons.jsx';
 import Header from './headerPicture.jsx';
+import AboutContent from './aboutContent.jsx';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 
@@ -10,12 +11,9 @@ const about = () => (
   <div id='about-page'>
     <SideButtons />
     <div id='about-container'>
-      <Header background-color='blue' />
+      <Header />
       <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500} transitionLeaveTimeout={300}>
-        <h1> Vincent Newkirk </h1>
-        <p>Hello there! <br />
-        I am a full stack-developer from Honolulu, Hawaii!
-        </p>
+        <AboutContent />
       </ReactCSSTransitionGroup>
     </div>
   </div>
