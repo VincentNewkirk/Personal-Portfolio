@@ -17,7 +17,7 @@ const SideButtons = React.createClass({
   // },
   render: function() {
     return (
-      <Menu width={200} isOpen >
+      <Menu width={200} noOverlay >
         <RadiumLink id="about" className="menu-item" to="/about">About</RadiumLink>
         <RadiumLink id="projects" className="menu-item" to="/projects">Projects</RadiumLink>
         <RadiumLink id='skills' className="menu-item" to="/skills">Skills</RadiumLink>
@@ -26,18 +26,5 @@ const SideButtons = React.createClass({
     );
   }
 });
-
-// class SideButtons extends React.Component{
-//   render () {
-//     return (
-//       <div id='main-header'>
-//         <HeaderButton linkPath='/about' title='About' />
-//         <HeaderButton linkPath='/projects' title='Projects' />
-//         <HeaderButton linkPath='/skills' title='Skills' />
-//         <HeaderButton linkPath='/contact' title='Contact' />
-//       </div>
-//     )
-//   }
-// }
 
 export default SideButtons;
