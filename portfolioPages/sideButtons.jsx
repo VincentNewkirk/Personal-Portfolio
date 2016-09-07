@@ -8,14 +8,8 @@ const Menu = require('react-burger-menu').bubble;
 let RadiumLink = Radium(Link);
 
 
-const SideButtons = React.createClass({
-  // showSettings: function(event) {
-  //   event.preventDefault();
-  //   .
-  //   .
-  //   .
-  // },
-  render: function() {
+class SideButtons extends React.Component{
+  render() {
     return (
       <Menu width={200} noOverlay >
         <RadiumLink id="about" className="menu-item" to="/about">About</RadiumLink>
@@ -25,6 +19,6 @@ const SideButtons = React.createClass({
       </Menu>
     );
   }
-});
+};
 
 export default SideButtons;
