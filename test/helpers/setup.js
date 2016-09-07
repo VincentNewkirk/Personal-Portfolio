@@ -1,6 +1,26 @@
-require('babel-register');
-require('babel-polyfill');
+require('babel-register')();
 
-global.document = require('jsdom').jsdom('<body><div id="app"></div></body>');
+var jsdom = require('jsdom').jsdom;
+
+var exposedProperties = ['window', 'navigator', 'document'];
+
+global.document = jsdom('');
 global.window = document.defaultView;
-global.navigator = window.navigator;
+Object.keys(document.defaultView).forEach((property) => {
+  if (typeof global[property] === 'undefined') {
+    exposedProperties.push(property);
+    global[property] = document.defaultView[property];
+  }
+});
+
+global.navigator = {
+  userAgent: 'node.js'
+};
+
+documentRef = document;
+// require('babel-register');
+// require('babel-polyfill');
+
+// global.document = require('jsdom').jsdom('<body><div id="content"></div></body>');
+// global.window = document.defaultView;
+// global.navigator = window.navigator;

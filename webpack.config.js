@@ -21,6 +21,12 @@ module.exports = {
   resolve: {
     extensions: ['', '.js'],
   },
+  externals: {
+  'cheerio': 'window',
+  'react/addons': true,
+  'react/lib/ExecutionEnvironment': true,
+  'react/lib/ReactContext': true
+  },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new HtmlWebpackPlugin({
@@ -55,7 +61,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel',
       query: {
-        presets: ['react', 'es2015'],
+        presets: ['react', 'es2015', 'stage-0'],
       },
     }, {
       test: /\.json?$/,
