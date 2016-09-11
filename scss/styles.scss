@@ -24,7 +24,12 @@ a{
 .header{
   height: 100px;
   width: 100%;
-  background-color: blue;
+  background-color: white;
+}
+
+#header-title{
+  text-align: right;
+  margin-right: 10%;
 }
 
 #main-header{
@@ -34,6 +39,10 @@ a{
   flex-direction: column;
   align-items: center;
   background-color: yellow;
+}
+
+.content-box{
+  margin-left: 15%;
 }
 
 #about-page{

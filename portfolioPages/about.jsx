@@ -11,7 +11,7 @@ const about = () => (
   <div id='about-page'>
     <SideButtons />
     <div id='about-container'>
-      <Header />
+      <Header title='Vincent Newkirk'/>
       <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500} transitionLeaveTimeout={300}>
         <AboutContent />
       </ReactCSSTransitionGroup>

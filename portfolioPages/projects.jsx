@@ -10,9 +10,8 @@ const projects = () => (
   <div id='projects-page'>
     <SideButtons />
     <div id='projects-container'>
-      <Header />
+      <Header title='Projects'/>
       <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
-        <h1>Projects</h1>
       </ReactCSSTransitionGroup>
     </div>
   </div>

@@ -3,8 +3,7 @@ import React from 'react';
 
 
 const SkillsContent = () => (
-  <div id='skills-content'>
-    <h1>Techincal Skills</h1>
+  <div id='skills-content' className='content-box'>
     <div>
       <h3>Front-End</h3>
       <span>React Angular ES6 D3 Leaflet Sass CSS3 HTML5</span>

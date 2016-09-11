@@ -11,7 +11,7 @@ const Skills = () => (
   <div id='skills'>
     <SideButtons />
     <div id='skills-container'>
-    <Header />
+    <Header title='Techincal Skills'/>
     <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500} transitionLeaveTimeout={300}>
       <SkillsContent />
      </ReactCSSTransitionGroup>
