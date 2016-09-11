@@ -86,6 +86,7 @@ a{
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  position: inherit !important;
 }
 
 /* Color/shape of close button cross */
@@ -127,7 +128,6 @@ body{
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
-  width: 5000%;
 }
 
 .content-link{
