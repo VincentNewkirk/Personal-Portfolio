@@ -15,6 +15,14 @@ class SkillsContent extends React.Component{
     ['http://jaspreetchahal.org/images/css3.svg','CSS3'],
     ['https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png', 'HTML5']
     ];
+
+    const backEnd = [
+    ['http://mherman.org/images/node-express.png', 'NodeJS'],
+    ['http://files.classpattern.com/media/show/221', 'Mongo'],
+    ['http://ih1.redbubble.net/image.105298420.5130/sticker,375x360.png', 'PostgreSQL'],
+    ['https://4.bp.blogspot.com/-xs3f2wFeSdM/V4Z2O_Ch6NI/AAAAAAAADyM/3U0RqAhkuwgh5ObCcOjE43Y94daLks-rQCLcB/s1600/GraphQL.png', 'GraphQL'],
+
+    ];
     var frontEndNode = skillsArray.map((current) => {
       return (
         <div className='skill-box'>
@@ -23,11 +31,24 @@ class SkillsContent extends React.Component{
         </div>
       )
     });
+
+    var backEndNode = backEnd.map((current) => {
+      return(
+        <div className='skill-box'>
+          <img className='skill-pic' src={current[0]} />
+          <span className='skillName'>{current[1]}</span>
+        </div>
+      )
+    })
     return (
       <div id='skills-content' className='content-box'>
         <h3>Front-End</h3>
         <div className='skill-box-container'>
           {frontEndNode}
+        </div>
+        <h3>Back-End</h3>
+        <div className='skill-box-container'>
+          {backEndNode}
         </div>
       </div>
     )

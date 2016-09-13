@@ -4,8 +4,10 @@
 }
 
 .skill-box{
-  max-width: 55px;
+  max-width: 100px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .skill-box-container{
