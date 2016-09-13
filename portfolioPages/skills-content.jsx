@@ -23,6 +23,16 @@ class SkillsContent extends React.Component{
     ['https://4.bp.blogspot.com/-xs3f2wFeSdM/V4Z2O_Ch6NI/AAAAAAAADyM/3U0RqAhkuwgh5ObCcOjE43Y94daLks-rQCLcB/s1600/GraphQL.png', 'GraphQL'],
 
     ];
+
+    const workflowArray = [
+    ['http://image.flaticon.com/icons/svg/25/25231.svg', 'Git'],
+    ['https://s3.amazonaws.com/media-p.slid.es/uploads/514397/images/2632483/2015-08-18_20_38_57.gif','Webpack'],
+    ['https://s3.amazonaws.com/media-p.slid.es/uploads/170788/images/1582514/6200624.png','Gulp'],
+    ['https://cldup.com/xFVFxOioAU.svg', 'Mocha'],
+    ['http://nashvillesoftwareschool.com/images/technologies/chai.png', 'Chai'],
+    ['https://s3.amazonaws.com/media-p.slid.es/uploads/jhabdas/images/969312/react-logo-1000-transparent.png', 'Enzyme'],
+    ['https://s-media-cache-ak0.pinimg.com/564x/94/1c/36/941c3629ba3a3e24824ef9a1f0e844b1.jpg', 'Supertest']
+    ];
     var frontEndNode = skillsArray.map((current) => {
       return (
         <div className='skill-box'>
@@ -39,6 +49,15 @@ class SkillsContent extends React.Component{
           <span className='skillName'>{current[1]}</span>
         </div>
       )
+    });
+
+    var workflowNode = workflowArray.map((current)=>{
+      return (
+        <div className='skill-box'>
+          <img className='skill-pic' src={current[0]} />
+          <span className='skillName'>{current[1]}</span>
+        </div>
+      )
     })
     return (
       <div id='skills-content' className='content-box'>
@@ -49,6 +68,10 @@ class SkillsContent extends React.Component{
         <h3>Back-End</h3>
         <div className='skill-box-container'>
           {backEndNode}
+        </div>
+        <h3>Workflow/Testing Utilities</h3>
+        <div className='skill-box-container'>
+          {workflowNode}
         </div>
       </div>
     )
