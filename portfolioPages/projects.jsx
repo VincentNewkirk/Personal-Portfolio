@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import SideButtons from './sideButtons.jsx';
 import Header from './headerPicture.jsx';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-
+import ProjectsContent from './projects-content.jsx';
 
 const projects = () => (
   <div id='projects-page'>
@@ -12,6 +12,7 @@ const projects = () => (
     <div id='projects-container'>
       <Header title='Projects'/>
       <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
+        <ProjectsContent />
       </ReactCSSTransitionGroup>
     </div>
   </div>

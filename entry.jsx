@@ -8,6 +8,7 @@ import Contact from './portfolioPages/contact.jsx';
 import style from "./scss/styles.scss";
 import Skills from './portfolioPages/skills.jsx'
 import { Router, Route, hasHistory } from 'react-router';
+import XtinctPage from './portfolioPages/xtinct.jsx';
 
 ReactDOM.render(
   <Router history={hasHistory}>
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Router path='/projects' component={projects} />
     <Router path='/contact' component={Contact} />
     <Router path='/skills' component={Skills} />
+    <Router path='/xtinct' component={XtinctPage} />
   </Router>,
   document.getElementById('content')
 );
