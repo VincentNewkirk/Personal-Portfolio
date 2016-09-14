@@ -8,7 +8,7 @@ import Contact from './portfolioPages/contact.jsx';
 import style from "./scss/styles.scss";
 import Skills from './portfolioPages/skills.jsx'
 import { Router, Route, hasHistory } from 'react-router';
-import XtinctPage from './portfolioPages/xtinct.jsx';
+import XtinctPage from './portfolioPages/projects/xtinct.jsx';
 import KanbanPage from './portfolioPages/projects/kanban.jsx';
 import ExpressPage from './portfolioPages/projects/express.jsx';
 

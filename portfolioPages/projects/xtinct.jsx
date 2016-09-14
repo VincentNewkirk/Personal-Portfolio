@@ -1,8 +1,7 @@
 import React from 'react';
-import SideButtons from './sideButtons.jsx';
-import Header from './headerPicture.jsx';
+import SideButtons from '../sideButtons.jsx';
+import Header from '../headerPicture.jsx';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import ProjectsContent from './projects-content.jsx';
 
 const XtinctPage = () => (
   <div id='xtinct-page'>
