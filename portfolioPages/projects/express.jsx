@@ -7,11 +7,13 @@ const ExpressPage = () => (
   <div id='express-Page'>
     <SideButtons />
     <Header title='Express Gallery'/>
-    <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
-        <span>Custom CMS with user authentication. Live at
-        <a href='expressgallery.herokuapp.com'>expressgallery.herokuapp.com</a>
-        </span>
-    </ReactCSSTransitionGroup>
+    <div className='content-box'>
+      <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
+          <span>Custom CMS with user authentication. Live at
+          <a href='expressgallery.herokuapp.com'>expressgallery.herokuapp.com</a>
+          </span>
+      </ReactCSSTransitionGroup>
+    </div>
   </div>
 )
 
