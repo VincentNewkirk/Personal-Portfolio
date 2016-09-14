@@ -10,6 +10,7 @@ import Skills from './portfolioPages/skills.jsx'
 import { Router, Route, hasHistory } from 'react-router';
 import XtinctPage from './portfolioPages/xtinct.jsx';
 import KanbanPage from './portfolioPages/projects/kanban.jsx';
+import ExpressPage from './portfolioPages/projects/express.jsx';
 
 ReactDOM.render(
   <Router history={hasHistory}>
@@ -20,6 +21,7 @@ ReactDOM.render(
     <Router path='/skills' component={Skills} />
     <Router path='/xtinct' component={XtinctPage} />
     <Router path='/kanban' component={KanbanPage} />
+    <Router path='/express' component={ExpressPage} />
   </Router>,
   document.getElementById('content')
 );

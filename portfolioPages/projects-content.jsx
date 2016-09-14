@@ -9,6 +9,7 @@ class ProjectContent extends React.Component{
         <div id='xtinct-box'>
           <Link to='/xtinct'>Xtinct.online</Link>
           <Link to='/kanban'>React Kanban</Link>
+          <Link to='/express'>Express Gallery</Link>
         </div>
       </div>
     )
