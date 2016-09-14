@@ -1,0 +1,27 @@
+#project-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-thumbnail-box{
+  width: 80%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // padding: 50px 0px 50px 0px;
+  border: 5px solid black;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.project-box{
+  height: 50%;
+  width: 50%;
+}
+
+.project-thumbnail-img{
+  max-width: 90%;
+  max-height: 90%;
+}
