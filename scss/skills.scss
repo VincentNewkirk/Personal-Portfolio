@@ -1,10 +1,12 @@
 .skill-pic{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .skill-box{
-  max-width: 100px;
+  margin-right: 10%;
+  margin-top: 2.5%;
+  max-width: 25%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -13,5 +15,12 @@
 .skill-box-container{
   display: flex;
   flex-direction: row;
-  width: 80%;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#skills-content{
+  h3{
+    font-size: 30px;
+  }
 }

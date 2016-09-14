@@ -21,7 +21,6 @@ class SkillsContent extends React.Component{
     ['http://files.classpattern.com/media/show/221', 'Mongo'],
     ['http://ih1.redbubble.net/image.105298420.5130/sticker,375x360.png', 'PostgreSQL'],
     ['https://4.bp.blogspot.com/-xs3f2wFeSdM/V4Z2O_Ch6NI/AAAAAAAADyM/3U0RqAhkuwgh5ObCcOjE43Y94daLks-rQCLcB/s1600/GraphQL.png', 'GraphQL'],
-
     ];
 
     const workflowArray = [
@@ -77,24 +76,5 @@ class SkillsContent extends React.Component{
     )
   }
 }
-//}
-        // <div>
-        //   <h3>Front-End</h3>
-        //   <div className='skill-box'>
-        //     <img className='skill-pic' src='https://s3.amazonaws.com/media-p.slid.es/uploads/jhabdas/images/969312/react-logo-1000-transparent.png'/>
-        //     <span>React</span>
-        //   </div>
-        //   <span>Angular ES6 D3 Leaflet Sass CSS3 HTML5</span>
-
-        //   <h3>Server-Side</h3>
-        //   <span>NodeJS Express MongoDB PostgresQL GraphQL Jade ORM</span>
-
-        //   <h3>Workflow/Testing Utilities</h3>
-        //   <span>Git Webpack Gulp Mocha Chai Enzyme Supertest</span>
-
-        //   <h3>Web Skills</h3>
-        //   <span>Responsive/Mobile First Development, Test/Behavior Driven Development,
-        //   Relational and Non-Relational Database Modeling, User Authentication, API Integration</span>
-        // </div>
 
 export default SkillsContent;
