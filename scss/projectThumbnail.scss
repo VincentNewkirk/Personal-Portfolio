@@ -10,10 +10,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // padding: 50px 0px 50px 0px;
-  border: 5px solid black;
+  padding: 25px 0px 25px 0px;
+  border: 2px solid black;
   border-radius: 2px;
   align-items: center;
+  margin-bottom: 25px;
+  color: black;
+  text-align: center;
 }
 
 .project-box{
@@ -24,4 +27,13 @@
 .project-thumbnail-img{
   max-width: 90%;
   max-height: 90%;
+}
+
+.project-thumbnail-desc{
+  margin-top: 10px;
+}
+
+.project-header{
+  margin-bottom: 10px;
+  font-size: 25px;
 }
