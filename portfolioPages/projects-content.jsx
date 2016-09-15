@@ -9,8 +9,8 @@ const ProjectContent = () => (
       <Link to='/xtinct'>
         <div className='project-thumbnail-box'>
         <img className='project-thumbnail-img'
-        src='http://feelgrafix.com/data/landscape/landscape-1.jpg' />
-        <span className='project-thumbnail-desc'>Xtinct.online</span>
+        src='http://i.imgur.com/j7B7Ap4.png' />
+        <span className='project-thumbnail-desc'>An interactive map visualizing animal extinction rates</span>
         </div>
       </Link>
     </div>
@@ -18,8 +18,8 @@ const ProjectContent = () => (
       <Link to='/kanban'>
         <div className='project-thumbnail-box'>
         <img className='project-thumbnail-img'
-        src='http://feelgrafix.com/data/landscape/landscape-1.jpg' />
-        <span className='project-thumbnail-desc'>React Kanban</span>
+        src='http://i.imgur.com/hKfFIm1.png' />
+        <span className='project-thumbnail-desc'>Kanban Board using React and Redux</span>
         </div>
       </Link>
     </div>
@@ -27,8 +27,8 @@ const ProjectContent = () => (
       <Link to='/express'>
         <div className='project-thumbnail-box'>
         <img className='project-thumbnail-img'
-        src='http://feelgrafix.com/data/landscape/landscape-1.jpg' />
-        <span className='project-thumbnail-desc'>Express Gallery</span>
+        src='http://i.imgur.com/o9ZR7Tb.png' />
+        <span className='project-thumbnail-desc'>Custom CMS with password encryption</span>
         </div>
       </Link>
     </div>
