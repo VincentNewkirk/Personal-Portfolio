@@ -1,6 +1,6 @@
 'use strict';
 import React from 'react';
-
+import Gallery from './imageGallery.jsx';
 
 const AboutContent = () => (
   <div id='about-content' className='content-box'>
@@ -9,9 +9,9 @@ const AboutContent = () => (
     I also have Dev Ops experience with Nginx. I was able to single-handedly deploy 'Xtinct Online'<br />
     by myself to Digital Ocean. <br />
     <br />
-
     I have a passion for making high performance, beautiful web applications.<br/>
     </p>
+    <Gallery />
   </div>
 )
 
