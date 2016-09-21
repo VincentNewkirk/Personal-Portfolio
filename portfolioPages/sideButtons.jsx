@@ -12,6 +12,7 @@ class SideButtons extends React.Component{
   render() {
     return (
       <Menu width={150} noOverlay >
+        <span id='menu-name'>Vince</span>
         <RadiumLink id="about" className="menu-item" to="/about">About</RadiumLink>
         <RadiumLink id="projects" className="menu-item" to="/projects">Projects</RadiumLink>
         <RadiumLink id='skills' className="menu-item" to="/skills">Skills</RadiumLink>
