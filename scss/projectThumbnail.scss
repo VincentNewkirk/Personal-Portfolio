@@ -1,7 +1,14 @@
+$white: rgb(255,255,255);
+$special-shirt: rgb(203,232,107);
+$write-it: rgb(242,233,225);
+$karma: rgb(28,20,13);
+
+
 #project-content{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 .project-thumbnail-box{
@@ -14,9 +21,11 @@
   border: 2px solid black;
   border-radius: 2px;
   align-items: center;
+  margin-top: 25px;
   margin-bottom: 25px;
   color: black;
   text-align: center;
+  background-color: $write-it;
 }
 
 .project-box{

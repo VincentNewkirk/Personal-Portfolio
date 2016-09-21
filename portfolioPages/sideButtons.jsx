@@ -11,7 +11,7 @@ let RadiumLink = Radium(Link);
 class SideButtons extends React.Component{
   render() {
     return (
-      <Menu width={200} noOverlay >
+      <Menu width={150} noOverlay >
         <RadiumLink id="about" className="menu-item" to="/about">About</RadiumLink>
         <RadiumLink id="projects" className="menu-item" to="/projects">Projects</RadiumLink>
         <RadiumLink id='skills' className="menu-item" to="/skills">Skills</RadiumLink>
