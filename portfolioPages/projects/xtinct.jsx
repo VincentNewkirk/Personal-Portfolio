@@ -9,7 +9,7 @@ const XtinctPage = () => (
     <Header title='Xtinct.Online'/>
     <div className='content-box'>
       <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
-          <span>We made a map of extinct animals. Live at <a href='www.xtinct.online'>xtinct.online</a>
+          <span>We made a map of extinct animals. Live at <a href='www.xtinct.online' target='_blank'>xtinct.online</a>
           </span>
       </ReactCSSTransitionGroup>
     </div>

@@ -1,3 +1,8 @@
+$white: rgb(255,255,255);
+$special-shirt: rgb(203,232,107);
+$write-it: rgb(242,233,225);
+$karma: rgb(28,20,13);
+
 .example-appear {
   opacity: 0.01;
 }
@@ -8,8 +13,8 @@
 }
 
 a{
-  text-decoration: none;
-  // color: white;
+  text-decoration: none !important;
+  color: $write-it;
 }
 
 .example-leave {
@@ -24,7 +29,8 @@ a{
 .header{
   height: 100px;
   width: 100%;
-  background-color: white;
+  background-color: $special-shirt;
+  color: $karma;
 }
 
 #header-title{
@@ -88,7 +94,7 @@ a{
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: $karma;
 }
 
 /* Position and sizing of clickable cross button */
@@ -105,14 +111,15 @@ a{
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: $karma;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  color: $white;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
+  fill: $karma;
 }
 
 /* Wrapper for item list */
